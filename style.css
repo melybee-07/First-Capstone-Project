@@ -55,6 +55,73 @@ ul {
   width: 50%;
   margin: 2% 8%;
 }
+/* humberger */
+.hamburger {
+  position: absolute;
+  display: block;
+  top: 20px;
+  left: 20px;
+  width: 35px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  z-index: 99;
+}
+.hamburger .bar, .hamburger:after, .hamburger:before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #272a31;
+  margin: 3px 0px;
+  transition: 0.4s;
+}
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-11px, 5px);
+  background-color: #d3d3d3;
+}
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-5px, 1px);
+  background-color: #d3d3d3;
+}
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 85%;
+  height: 100vh;
+  display: block;
+  z-index: 98;
+  padding-top: 120px;
+  background-color: rgb(39, 42, 49);
+  transition: 0.4s;
+  margin-top: -10%;
+}
+.mobile-nav.is-active {
+  left: 0;
+}
+.mobile-nav a {
+  display: block;
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #d3d3d3;
+  width: 90%;
+  padding: 4% 0;
+  margin-left: -4%;
+  
+}
+.mobile-nav a:hover {
+  color: #ec5242;
+}
+
+
+/* ------------------------------------- */
 
 .l2 {
   gap: 5rem;
@@ -79,7 +146,7 @@ ul {
 .main-sec1 {
   background-image: url("./images/main_big.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
   padding: 5%;
 }
@@ -121,9 +188,88 @@ ul {
 }
 
 
+
+/* -----main program---- */
+.program-sec {
+  background-image: url("./images/46788e774a063d94f74feb1d61324655.jpg");
+}
+
+.program-header {
+  padding-top: 6%;
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.lign {
+  width: 6%;
+  margin: 1% auto;
+  background-color: #ec5242;
+  border-color: #ec5242;
+  height: 2px;
+}
+
+.program-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+  margin: 3% auto;
+  gap: 5px;
+
+}
+
+.program-card .Card-main {
+  background-color: rgb(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 2%;
+  width: 70%;
+  height: 30vh;
+  border-radius: 4px;
+  border: 3px solid transparent;
+}
+
+.program-card .Card-main:hover {
+  border-color: #d3d3d3;
+  cursor: pointer;
+}
+
+.program-card .card {
+  width: 100%;
+  padding: 0;
+}
+
+.program-card h4 {
+  color: #ec5242;
+  font-size: 1.2rem;
+}
+
+.program-card p {
+  color: #d3d3d3;
+  font-size: 1rem;
+}
+
+.program-sec a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 1.2rem;
+  display: block;
+  text-align: end;
+  margin-right: 3%;
+  padding-bottom: 5%;
+}
+
+.program-sec a:hover {
+  text-decoration: underline;
+}
+
+
 /* --------------------------------------------------------------------------------------------------- */
 
 @media (max-width: 76.8rem) {
+
   .first-navbar,
   .nav2 {
     display: none;
@@ -137,9 +283,6 @@ ul {
     width: 2rem;
   }
 
-  
-  
-
   .logo-img {
     width: 10rem;
     height: 5rem;
@@ -151,9 +294,13 @@ ul {
     height: 100%;
   }
 
+  /* navigation bar */
+
+
+  /* --------------------------------------- */
+
   .main-sec1 {
     background-position: center;
-    background-size: 100% 100%;
   }
 
   .adjus {
@@ -184,18 +331,67 @@ ul {
   .main-sec1 p {
     font-size: 1rem;
   }
+
+  /* main program */
+  .program-header {
+    font-size: 1.2rem;
+  }
+
+  .lign {
+    height: 0.5px;
+  }
+
+  .program-card {
+    flex-direction: column;
+    width: 90%;
+    margin: 4% auto;
+    gap: 6px;
+  }
+
+  .program-card .Card-main {
+    text-align: left;
+    padding: 2%;
+    display: flex;
+    width: 80%;
+    height: 15vh;
+  }
+
+  .program-card .Card-main img {
+    width: 15%;
+    height: 4rem;
+  }
+
+  .program-card .card {
+    padding-left: 2%;
+  }
+
+  .program-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .program-card p {
+    color: #d3d3d3;
+    font-size: 0.8rem;
+  }
+
+  .program-sec a {
+    font-size: 1rem;
+  }
 }
 
 /* --------------------------------------------------------------------------------------------------- */
 
-@media (min-width: 76.8rem) and
-  (max-width: 166.6rem) {
+@media (min-width: 76.8rem) and (max-width: 166.6rem) {
+
   .first-navbar,
   .second-navbar {
     display: flex;
   }
-
-  .third-navbar {
-    display: none;
-  }
+.hamburger {
+  display: none;
+}
+.mobile-nav {
+  display: none;
+}
+ 
 }

@@ -1,7 +1,9 @@
-const humberger = document.querySelector('.nav3');
-const navigation = document.querySelector('third-navbar');
+const menu_btn = document.querySelector('.hamburger');
+const mbile_menu = document.querySelector('.mobile-nav');
 
-function humfunction(){   humberger.classList.toggle('active');
-navigation.classList.toggle('active');
-}
-humberger.addEventListener('click', humfunction);
+menu_btn.addEventListener('click', function(){
+    menu_btn.classList.toggle('is-active');
+    mbile_menu.classList.toggle('is-active');
+});
+
+
