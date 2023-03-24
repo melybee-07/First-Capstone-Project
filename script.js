@@ -26,6 +26,7 @@ function generateContent([grillimg, peopleimg, hfour, hfive, descriptionp]) {
                             </li>
                             <li>
                                 <h5>${hfive}</h5>
+                                <hr class="lign1">
                             </li>
                             <li>
                                 <p>${descriptionp}</p>
