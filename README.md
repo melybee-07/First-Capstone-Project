@@ -1,43 +1,13 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+<div align="center">
 
-Modify this file to match your project and remove sections that don't apply.
+  <h3><b>First Capstone Project
+</b></h3>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
+</div>
 
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -58,53 +28,48 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+# 📖 [Generative-Art-Creation-Using-Machine-Learning-Techniques] <a name="about-project"></a>
 
-**[your_project__name]** is a...
+**[Generative-Art-Creation-Using-Machine-Learning-Techniques]** Create art that's truly groundbreaking, with techniques that are awe-inspiring and breathtaking, using generative processes that are machine learning-based - at this event, you'll be amazed!
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Linters</li>
+  <li>JavaScript</li>
+</ul>
+
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config">Linters</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">HTML</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">CSS</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">JS</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- **[build a home page]**
+- **[build tha about page]**
+- **[Responsive website]**
+- **[Humberger button]**
+- **[Using JavaScript for Dynamic content]**
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,9 +77,12 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+<ul>
+  <li><a href="https://melybee-07.github.io/First-Capstone-Project/">Live Demo Link</a></li>
+  <li><a href="https://www.loom.com/share/81fed9b04e604845bfca6abd4d208da7">Loom video</a></li>
+</ul>
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,115 +90,70 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to make this project you need:
 
-<!--
-Example command:
+to make a very similar web page to the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">disign guidlines </a>
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+git clone git@github.com:melybee-07/First-Capstone-Project.git
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+<ul>
+  <li>you need to install the Linters for the  <a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">HTML-CSS & JS </a> Documents</li>
+</ul>
 
 ### Usage
 
-To run the project, execute the following command:
+to run the projetc, run the following command:
 
-<!--
-Example command:
+<ul>
+  <li>npm ruin build</li>
+</ul>
 
-```sh
-  rails server
-```
---->
+### Run test
 
-### Run tests
+to run the tests to make sure no Linters errors, run the following command:
 
-To run tests, run the following command:
+<ul>
+  <li>npx stylelint "**/*.{css,scss}"</li>
+  <li>npx eslint .</li>
+</ul>
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Melissa Mazir**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@melybee-07](https://github.com/melybee-07)
+- Twitter: [@mazir_melissa](https://twitter.com/mazir_melissa)
+- LinkedIn: [melissa mazir](https://www.linkedin.com/in/melissa-mazir-172574223/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+### 🔭 Future Features <a name="Future Features"></a>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **[Evaluate accessibility]**
+- **[mobile menu]**
+- **[desktop version]**
+- **[Validate contact form]**
+- **[Preserve data in the browser]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +171,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please feel free to give a ⭐️ to this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,25 +180,17 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+Thanks to the Original design idea by : Cindy Shin in Behance. for giving me they opportunity to build this beutiful project. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
 
-  - [Answer_1]
 
-- **[Question_2]**
 
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -284,8 +198,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
