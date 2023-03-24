@@ -79,7 +79,7 @@
 
 <ul>
   <li><a href="https://melybee-07.github.io/First-Capstone-Project/">Live Demo Link</a></li>
-  <li><a href="https://www.loom.com/share/52ff934da24442f097168e0db1baf048">Loom video</a></li>
+  <li><a href="https://www.loom.com/share/81fed9b04e604845bfca6abd4d208da7">Loom video</a></li>
 </ul>
 
 
