@@ -147,7 +147,13 @@ to run the tests to make sure no Linters errors, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### 🔭 Future Features <a name="Future Features"></a>
 
+- **[Evaluate accessibility]**
+- **[mobile menu]**
+- **[desktop version]**
+- **[Validate contact form]**
+- **[Preserve data in the browser]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
